@@ -1,0 +1,39 @@
+body {
+  background-image: url("charizard.png");
+
+}
+
+hr {
+  background-color: transparent;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 50%;
+}
+
+h1 {
+  background-color: transparent;
+  color: black;
+}
+h4{
+  background-color: transparent;
+  color:red;
+  width:40%;
+}
+/*
+#contact_us:hover{
+  background-color: yellow;
+}
+#register:hover{
+  background-color: yellow;
+}
+*/
+.buttons:hover{
+  background-color: gold;
+}
+.buttons{
+  width: 150px;
+  height:30px;
+  border-radius:10px;
+}
