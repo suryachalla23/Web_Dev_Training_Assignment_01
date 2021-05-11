@@ -15,39 +15,43 @@
         <table>
 
           <tr>
-            <h1>Pokemon Showdown</h1>
+            <h1 id="title">Pokemon Showdown</h1>
+
+            <h2 id="sub_title"><strong><em>League Championships</em></strong></h2>
           </tr>
           <tr>
-            <td>  <h1><em><strong>Contact Us</strong></em></h1></td>
+            <td>  <h1 class="headings"><em><strong>Contact Us</strong></em></h1></td>
 
-            <td>  <form class="buttons" action="index.html" method="post">
-                <input class="buttons" type="submit" name="home" value="Home Page">
-              </form></td>
+            <td>  <a class= "clickers" href="index.html"><strong><strong>Home Page</strong></strong></a>
           </tr>
         </table>
       </td>
     </tr>
   </table>
   <hr size="2" noshade>
-  <form action="feedback.html" method="post" enctype="text/plain">
+  <center>
+
+
+  <form action="" method="" enctype="text/plain">
     <table>
       <tr>
-        <td> <label for="Name"><strong>Name:</strong></label>
+        <td> <label class="labels" for="Name"><strong>Name:</strong></label>
 
         </td>
-        <td> <input type="text" name="Name" value=""></td>
+        <td> <input class="inputs" type="text" name="Name" value=""></td>
       </tr>
       <tr>
-        <td><label for="Email"><strong>Email Id:</strong></label></td>
-        <td><input type="email" name="Email" value=""></td>
+        <td><label class="labels" for="Email"><strong>Email Id:</strong></label></td>
+        <td><input class="inputs"type="email" name="Email" value=""></td>
       </tr>
     </table>
-    <label for="Text"><strong>Enter the Message:</strong></label>
+    <label class="labels" for="Text"><strong>Enter the Message</strong></label>
     <br>
-    <textarea name="name" rows="18" cols="100"></textarea>
+    <textarea class = "inputs" id="textbox" name="name" rows="6" cols="40"></textarea>
     <br>
-    <input class="buttons" type="submit" name="mail" value="Submit">
+    <a class= "clickers" href="feedback.html"><strong><strong>Submit</strong></strong></a>
   </form>
+  </center>
 
 
 </body>

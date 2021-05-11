@@ -5,24 +5,30 @@
   <meta charset="utf-8">
   <title>Showdown Registration</title>
   <link rel="stylesheet" href="css/styles.css">
+  <style media="screen">
+    #notice{
+      text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+      font-family: cursive; color: #810000;
+
+    }
+  </style>
 </head>
 
 <body>
-  <table cellspacing="20">
+  <table cellspacing="10">
     <tr>
       <td><img width="150" height="150" src="logo.png" alt="Site Display Image"></td>
       <td>
         <table>
 
           <tr>
-            <h1>Pokemon Showdown</h1>
+            <h1 id="title">Pokemon Showdown</h1>
+
+            <h2 id="sub_title"><strong><em>League Championships</em></strong></h2>
           </tr>
           <tr>
-            <h2><strong><em>League Championships</em></strong></h2>
-          </tr>
-          <tr>
-            <p style="color:black;">
-              Hi, welcome to the World of Pokemon Showdown, where, we battle with <em><strong>No Mercy!</strong></em><br>
+
             </p>
             <h2>Stand your ground in the World's Biggest Showdown Ever!</h2>
 
@@ -30,18 +36,19 @@
           </tr>
         </table>
       </td>
-      <td><form class="" action="register.html" method="post">
-        <input class="buttons" type="submit" name="register" value="Register">
-      </form></td>
-      <td><form class="" action="contact-us.html" method="post">
-        <input class="buttons" type="submit" name="contact-us" value="Contact Us">
-      </form></td>
+
+      <td> <h4>
+      <a class= "clickers" href="register.html"><strong><strong>Register</strong></strong></a>
+    </h4></td>
+      <td> <h4>
+      <a class= "clickers" href="contact-us.html"><strong><strong>Contact_Us</strong></strong></a>
+    </h4></td>
 
     </tr>
   </table>
   <hr size="2" noshade>
   <center>
-    <h4 style="color:white;"><em><em>***Register Before the end of this month to grab your pass***</em></em></h4>
+    <h3 id="notice"><em><em>***Register Before the end of this month to grab your pass***</em></em></h3>
   </center>
 
   <hr size="2" noshade>

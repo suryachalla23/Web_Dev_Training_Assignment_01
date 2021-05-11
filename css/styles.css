@@ -1,5 +1,6 @@
 body {
-  background-image: url("charizard.png");
+
+  background-image  : url("charizard.png");
 
 }
 
@@ -14,7 +15,17 @@ hr {
 
 h1 {
   background-color: transparent;
-  color: black;
+  /*color: black;*/
+
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+    font-family: fantasy; color: #000000;
+}
+h2{
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+  font-family: cursive; color: #000000;
 }
 h4{
   background-color: transparent;
@@ -36,4 +47,56 @@ h4{
   width: 150px;
   height:30px;
   border-radius:10px;
+}
+.clickers{
+  text-decoration: none;
+  background-color: black;
+  color:white;
+  font-family: cursive;
+  font-style: normal;
+  font-size: 120%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius:10px;
+  border-color: black;
+  border-width: 4px;
+
+}
+.clickers:hover{
+  color:black;
+  background-color: #f0e3ca;
+}
+h3{
+  font-size: 20px;
+  color: black;
+}
+.labels{
+  ;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+  font-family: cursive; color: #000000;
+  font-size: 20px;
+}
+.inputs{
+  font-family: cursive;
+  font-size: 15px;
+  border-width:2px;
+  border-color: black;
+  background-color:#edffec ;
+  border-radius: 5px;
+  padding: 8px, 16px, 8px, 16px ;
+}
+#textbox{
+  font-size: 20px;
+}
+#sub_title{
+  font-family: fantasy;
+}
+#title{
+  font-size: 40px;
+}
+.headings{
+  font-family: cursive;
 }
